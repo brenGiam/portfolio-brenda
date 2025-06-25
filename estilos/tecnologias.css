@@ -55,7 +55,7 @@
 
 @media (max-width: 480px) {
     .iconos-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
     }
 
     .iconos {
