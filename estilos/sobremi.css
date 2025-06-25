@@ -1,0 +1,107 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobreMi-container,
+.tecnologias-container {
+    flex: 1 1 50%;
+    min-width: 300px;
+    background-color: #D4FBF2;
+    padding: 2rem;
+}
+
+.tecnologias-container {
+    background-color: #DBF4D2;
+}
+
+.sobre-mi h3 {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    color: #002A87;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    margin: 0 0 1rem 0;
+}
+
+.sobre-mi p {
+    font-family: Arial, sans-serif;
+    font-size: clamp(0.75rem, 2vw, 0.9rem);
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+    color: #333;
+}
+
+.botones-container {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boton-sobreMi {
+    font-family: Arial, sans-serif;
+    background-color: #70C1B3;
+    color: #FFEFB7;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.8rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 120px;
+}
+
+.boton-sobreMi:hover {
+    background-color: #45a29e;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    .sobreMi-container,
+    .tecnologias-container {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sobreMi-container,
+    .tecnologias-container {
+        width: 100%;
+    }
+
+    .botones-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .boton-sobreMi {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    @media (max-width: 480px) {
+        .botones-container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .boton-sobreMi {
+            width: 100%;
+            max-width: 200px;
+        }
+    }
+}

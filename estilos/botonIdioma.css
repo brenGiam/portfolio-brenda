@@ -1,0 +1,22 @@
+button.boton {
+    background-color: #A5EBDC;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    color: #002A87;
+    transition: transform 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+button.boton:hover {
+    transform: scale(1.1);
+}
+
+.icono-idioma {
+    width: 20px;
+    object-fit: cover;
+}

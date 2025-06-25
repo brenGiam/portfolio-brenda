@@ -1,0 +1,23 @@
+{
+    "sobreMi": "Sobre mí",
+    "tecnologias": "Tecnologías",
+    "proyectos": "Proyectos",
+    "saludo": "¡Hola, soy Brenda!",
+    "descripcion1": "Soy desarrolladora web",
+    "descripcion2": "ubicada en Buenos Aires, Argentina.",
+    "sobreMi p1": "Hace un tiempo decidí hacer un gran cambio en mi vida: renunciar a mi trabajo de supervisora de sucursales para ir tras mi pasión: la programación.",
+    "sobreMi p2": "Hoy estoy enfocada 100% en mi formación como desarrolladora, especialmente en el área de backend, que es lo que más me apasiona.",
+    "sobreMi p3": "Me gusta entender cómo funcionan las cosas “por dentro”, trabajar en la lógica y la estructura de las aplicaciones, aunque también tengo conocimientos de frontend y disfruto crear proyectos completos por mi cuenta.  ",
+    "sobreMi p4": "Si bien todavía no tengo experiencia laboral en IT, estoy constantemente aprendiendo, haciendo proyectos propios y desafiándome. Me considero detallista, curiosa y práctica: cuando no sé cómo hacer algo, busco la forma y me las ingenio para resolverlo.",
+    "sobreMi p5": "Mi objetivo es poder dar ese primer paso profesional en el mundo IT y seguir creciendo en este camino que tanto me entusiasma.",
+    "descargarCv": "CV 📄",
+    "tituloProyecto2": "Gestor de Libros",
+    "tituloProyecto3": "Gestor de Tareas",
+    "proyectoDescripcion1": "Aplicación para publicar y buscar mascotas perdidas y encontradas.",
+    "proyectoDescripcion2": "Aplicación fullstack para la gestión de libros, que incluye funciones de creación, edición y eliminación.",
+    "proyectoDescripcion3": "Herramienta de gestión de tareas desarrollada con un enfoque fullstack, que permite a los usuarios organizar sus actividades diarias.",
+    "bannerConstruccion": "🚧 En Construcción 🚧",
+    "botonVideo": "Ver Video",
+    "botonCodigo": "Ver código",
+    "volver": "↑ Volver"
+}

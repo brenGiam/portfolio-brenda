@@ -1,0 +1,23 @@
+{
+    "sobreMi": "About me",
+    "tecnologias": "Technologies",
+    "proyectos": "Projects",
+    "saludo": "Hi, I'm Brenda!",
+    "descripcion1": "I'm a web developer",
+    "descripcion2": "based in Buenos Aires, Argentina.",
+    "sobreMi p1": "A while ago I decided to make a big change in my life: quit my job as a branch supervisor to pursue my passion: programming.",
+    "sobreMi p2": "Today I'm 100% focused on my studies as a programmer, especially in the backend area, which is what I'm most passionate about.",
+    "sobreMi p3": "I like to understand how things work “under the hood,” working on the logic and structure of applications, although I also have front-end knowledge and enjoy creating entire projects on my own.",
+    "sobreMi p4": "Although I don't have any work experience in IT yet, I'm constantly learning, developing my own projects, and challenging myself. I consider myself detail-oriented, curious, and practical: when I don't know how to do something, I find a way and figure it out.",
+    "sobreMi p5": "My goal is to take that first professional step in the IT world and continue growing along this path that excites me so much.",
+    "descargarCv": "Resume📄",
+    "tituloProyecto2": "Books Manager",
+    "tituloProyecto3": "Task Organizer",
+    "proyectoDescripcion1": "Application to report and search for lost and found pets.",
+    "proyectoDescripcion2": "Fullstack application for book management, including create, edit, and delete features.",
+    "proyectoDescripcion3": "Task management tool built with a fullstack approach, allowing users to organize their daily activities.",
+    "bannerConstruccion": "🚧 Under Construction 🚧",
+    "botonVideo": "Watch Video",
+    "botonCodigo": "GitHub code",
+    "volver": "↑ Up"
+}

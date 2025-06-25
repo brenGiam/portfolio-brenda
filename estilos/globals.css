@@ -1,0 +1,54 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.inicio-pagina {
+  background-color: #FDFCDC;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding: 2rem 1rem;
+}
+
+.card-principal {
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/*Responsive*/
+@media (max-width: 768px) {
+  .inicio-pagina {
+    padding: 1rem;
+  }
+
+  .card-principal {
+    border-radius: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .inicio-pagina {
+    padding: 0.5rem;
+  }
+
+  .card-principal {
+    border-radius: 0.75rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .card-principal {
+    border-radius: 0.5rem;
+  }
+}
