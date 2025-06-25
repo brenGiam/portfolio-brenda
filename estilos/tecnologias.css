@@ -55,7 +55,8 @@
 
 @media (max-width: 480px) {
     .iconos-container {
-        grid-template-columns: 2fr;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem 0.5rem;
     }
 
     .iconos {
