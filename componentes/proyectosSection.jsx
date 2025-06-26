@@ -25,7 +25,7 @@ export default function ProyectosSection() {
                     titulo={t('tituloProyecto2')}
                     descripcion={t('proyectoDescripcion2')}
                     imagen="/img/gestor-libros.png"
-                    video="https://youtu.be/WPUtY4KhUlw"
+                    video="https://youtu.be/wGR-V_qyzgs"
                     tecnologias="Java, Spring Boot, Spring Security, MySQL, Thymeleaf"
                     github="https://github.com/brenGiam/sistemaLibreria"
                     enConstruccion={false}
