@@ -34,8 +34,9 @@
     color: #002A87;
     margin-bottom: 0.5rem;
     font-size: clamp(2rem, 5vw, 3rem);
-    /* Tamaño fluido */
     margin: 0 0 0.5rem 0;
+    max-width: 100%;
+    display: inline-block;
 }
 
 .typewriter {
@@ -44,6 +45,8 @@
     border-right: 3px solid #002A87;
     width: 0;
     animation: typing 3s steps(20, end) forwards;
+    animation-fill-mode: forwards;
+    position: relative;
 }
 
 @keyframes typing {
@@ -52,7 +55,7 @@
     }
 
     to {
-        width: 14ch;
+        width: 15ch;
     }
 }
 
