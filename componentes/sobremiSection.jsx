@@ -15,7 +15,6 @@ export default function SobreMiSection() {
                     <p>{t('sobreMi p2')}</p>
                     <p>{t('sobreMi p3')}</p>
                     <p>{t('sobreMi p4')}</p>
-                    <p>{t('sobreMi p5')}</p>
                     <div className="botones-container">
                         <a
                             href={i18n.language === 'es' ? "/Brenda Giambelluca (ES).pdf" : "/Brenda Giambelluca (EN).pdf"}
