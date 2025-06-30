@@ -16,7 +16,7 @@ export default function ProyectosSection() {
                     descripcion={t('proyectoDescripcion1')}
                     imagen="/img/pawfinder.png"
                     video="https://www.youtube.com/tu-video"
-                    tecnologias="React, Spring Boot, JWT, MySQL, Cloudinary"
+                    tecnologias="React, Java, Spring Boot, JWT, MySQL, Cloudinary"
                     github="https://github.com/brenGiam/pawfinder"
                     enConstruccion={true}
                 />
@@ -24,7 +24,7 @@ export default function ProyectosSection() {
                 <Proyecto
                     titulo={t('tituloProyecto2')}
                     descripcion={t('proyectoDescripcion2')}
-                    imagen="/img/gestor-libros.png"
+                    imagen="/img/sistema-libreria.png"
                     video="https://youtu.be/wGR-V_qyzgs"
                     tecnologias="Java, Spring Boot, Spring Security, MySQL, Thymeleaf"
                     github="https://github.com/brenGiam/sistemaLibreria"
