@@ -9,7 +9,18 @@ export default function ProyectosSection() {
     return (
         <section className="proyectos-container">
             <h3>{t('proyectos')}</h3>
+            <p>{t('descripcion')}</p>
             <div className="lista-proyectos">
+
+                <Proyecto
+                    titulo={t('tituloProyecto4')}
+                    descripcion={t('proyectoDescripcion4')}
+                    imagen="/img/mi-recetario.png"
+                    video="https://youtu.be/utrbj_Sb-So"
+                    tecnologias="React, Java, SpringBoot, MongoDB, Cloudinary, PWA"
+                    github="https://github.com/brenGiam/recetario-frontend, https://github.com/brenGiam/recetario-backend"
+                    enConstruccion={false}
+                />
 
                 <Proyecto
                     titulo="Pawfinder"
