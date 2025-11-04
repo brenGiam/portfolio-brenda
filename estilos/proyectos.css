@@ -13,6 +13,15 @@
     margin: 0 0 1rem 0;
 }
 
+.proyectos-container p {
+    font-family: Arial, sans-serif;
+    font-size: clamp(0.75rem, 2vw, 0.9rem);
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+    color: #333;
+    text-align: justify;
+}
+
 .lista-proyectos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

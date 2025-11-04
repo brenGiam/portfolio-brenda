@@ -18,7 +18,7 @@ export default function ProyectosSection() {
                     imagen="/img/mi-recetario.png"
                     video="https://youtu.be/utrbj_Sb-So"
                     tecnologias="React, Java, SpringBoot, MongoDB, Cloudinary, PWA"
-                    github="https://github.com/brenGiam/recetario-frontend, https://github.com/brenGiam/recetario-backend"
+                    github="https://github.com/brenGiam/recetario-frontend"
                     enConstruccion={false}
                 />
 
