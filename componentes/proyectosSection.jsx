@@ -17,7 +17,7 @@ export default function ProyectosSection() {
                     descripcion={t('proyectoDescripcion4')}
                     imagen="/img/mi-recetario.png"
                     video="https://youtu.be/utrbj_Sb-So"
-                    tecnologias="React, Java, SpringBoot, MongoDB, Cloudinary, PWA"
+                    tecnologias="React, Java, SpringBoot, MongoDB, Cloudinary, PWA, Swagger"
                     github="https://github.com/brenGiam/recetario-frontend"
                     enConstruccion={false}
                 />
